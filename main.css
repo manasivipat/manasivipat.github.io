@@ -62,6 +62,26 @@ body {
 	padding: 0.5em;
 }
 
+.graphic__links {
+	text-decoration: underline;
+	color: #E97B93;
+}
+
+.group__pics {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.group {
+	width: 40%;
+	height: auto;
+}
+
+.beige__text {
+	color: #F2F5EA !important;
+}
+
 ol, ul {
 	list-style: none;
 }
