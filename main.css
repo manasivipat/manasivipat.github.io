@@ -37,6 +37,10 @@ body {
 	line-height: 1;
 }
 
+.dates {
+	color: #E97B93;
+}
+
 .pink__text {
 	color: #E97B93;
 }
@@ -1983,7 +1987,7 @@ input, select, textarea {
 			}
 
 			.box.feature p {
-				color: #2C363F;
+				/* color: #F2F5EA; */
 				margin: 0;
 			}
 
