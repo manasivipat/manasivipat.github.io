@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-color: #1E1E1E;
 }
 
 .dates {
@@ -226,6 +227,8 @@ input, select, textarea {
 
 	body {
 		background-image: url("images/trialbackground.png");
+		background-repeat:no-repeat;
+		background-size:cover;
 		/* background: #1E1E1E; */
 		/* background-image: linear-gradient(to right, #EBF4F5, #B5C6E0); */
 		/* background-image: linear-gradient(to right, #EBF4F5, #B5C6E0); */
