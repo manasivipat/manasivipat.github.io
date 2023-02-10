@@ -45,6 +45,12 @@ body {
 	color: #E97B93;
 }
 
+.bankwise__personas {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .pink__text1 {
 	color: #1E1E1E;
 	/* animation: fadeInOut .5s; */
