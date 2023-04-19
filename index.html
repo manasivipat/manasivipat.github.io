@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Manasi Vipat | UX Designer | Web Developer Portfolio</title>
+		<title>Manasi Vipat — Aspiring Product Designer</title>
 		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -14,6 +14,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="animate.css" />
 		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
 		<noscript><link rel="stylesheet" href="noscript.css" /></noscript>
 		<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
@@ -25,125 +26,104 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				
-					<header id="header">
-						<div class="inner">
+					<nav class="navbar navbar-expand-lg">
+						<div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+							<a class="navbar-brand" href="index.html">
+								<img class="logo_pic" src="images/logo.svg" alt="Logo" />
+							  </a>
 
-							<!-- Logo -->
-								<a href="/" class="logo">
-									<span class="symbol"><img src="images/apple-touch-icon.png" alt="" /></span><span class="title">Manasi Vipat</span>
-								</a>
-
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
-
+						  <ul id="nav" class="navbar-nav ms-auto aln">
+							<li class="nav-item" style="display:inline;">
+							  <a class="page-scroll" href="#nav__here">works</a>
+							</li>
+							<li class="nav-item">
+							  <a class="page-scroll" href="aboutme.html">about</a>
+							</li>
+							<li class="nav-item">
+							  <a class="page-scroll" href="#service">resume</a>
+							</li>
+						  </ul>
 						</div>
-					</header>
-
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="/" class="menu__style">Home</a></li>
-							<li><a href="aboutme.html" class="menu__style">About Me</a></li>
-							<!-- <li><a href="generic.html">Ipsum veroeros</a></li>
-							<li><a href="generic.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li> -->
-							<li><a href="assets/Manasi_Vipat_Resume.pdf" target="_blank" class="menu__style">Resume</a></li>
-						</ul>
-					</nav>
-
+					  </nav>
+					  
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
 							<div class="intro__">
 								<header>
-									<h1><span class="make__larger">Hi, I’m Manasi!</span><span class="pink__text">	
-										&#10084;</span></h1>
-									<h1>I’m a <span class="pink__text1">UX designer</span> and <span class="pink__text1">web developer</span> passionate about
-										developing <span class="pink__text1">inclusive</span> and <span class="pink__text1">modern</span> design.</h1>
+									<h1 class="avigea intro_text" style="font-size: 8rem;">hi, i'm <span class="avigea name">manasi vipat</span></h1>
+									<h2 style="font-size: 3.2rem; font-weight: 700;">Studying Computer Science + UX Design</h2>
+									<h2 style="font-size: 3.2rem; color: #77AFE4; line-height: 10px; font-weight: 700; padding-bottom: 3.2rem;">@University of Texas at Dallas</h2>
 								</header>
 							</div>
 							<br>
 							<br>
 							<center>
 							<a href="#nav__here"><img src="images/downarrow.png" height=40px width=40px alt="" /></a>
-						</center>
+							</center>
 							<div id="features-wrapper">
-								<div class="container">
+								<div class="container" style="white-space: normal;">
 									<div class="row">
-										<div class="col-4 col-12-medium">
+											<div id="nav__here" class="row extracurriculars">
+											<div class="col-3 col-12-medium" style="margin-right: .5rem;">
+													<img class="group" src="images/project1.svg" alt="" />
+													<h2 style="font-size: 2rem; font-weight: 700; color:white;">MyMuse</h2>
+													<div style="width: 20rem; padding-bottom: 1rem; padding-top: 1rem;">
+													<div style="width: 20rem; padding-bottom: .2rem;">
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center; ">APP DEVELOPMENT</button>
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">MOBILE UI/UX DESIGN</button>
+												</div>
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">PRODUCT DESIGN</button>
+												</div>
+													<h2 style="font-size: 1.2rem; font-weight: 300; width: 20rem;">Pioneering a new avenue for staying connected with friends and their musical tastes, via a social platform that allows you to seamlessly share your 'song of the day' and explore the music preferences of your network.</a></h2>
+													<br>
+													<h3 style="text-decoration: underline; font-size: 1.3rem;"><a href="mymuse.html">View Case Study ↗</a></h3>
+											</div>
+											<div class="col-3 col-12-medium" style="margin-right: .7rem;">
+												<img class="group" src="images/project2.svg" alt="" />
+												<h2 style="font-size: 2rem; font-weight: 700; color:white;">Bankwise</h2>
+												<div style="width: 20rem; padding-bottom: 1rem; padding-top: 1rem;">
+													<div style="width: 20rem; padding-bottom: .2rem;">
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center; ">APP DEVELOPMENT</button>
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">MOBILE UI/UX DESIGN</button>
+												</div>
+													<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">USER TESTING</button>
+												</div>
+												<h2 style="font-size: 1.2rem; font-weight: 300; width: 20rem;">Streamlining the banking experience with an all-in-one banking portfolio that consolidates multiple bank accounts onto a single app, enabling easy management of credit cards, bank statements and more.</a></h2>
+												<br>
+												<h3 style="text-decoration: underline; font-size: 1.3rem;"><a href="bankwise.html">View Case Study ↗</a></h3>		
+											</div>
+										<div class="col-3 col-12-medium" style="margin-right: .5rem;">
+											<img class="group" src="images/project3.svg" alt="" />
+											<h2 style="font-size: 2rem; font-weight: 700; color:white; width: 20rem;">WMWE Website</h2>
+											<div style="width: 20rem; padding-bottom: 1rem; padding-top: 1rem;">
+												<div style="width: 20rem; padding-bottom: .2rem;">
+												<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center; ">WEBSITE DEVELOPMENT</button>
+												<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">WEB UI/UX DESIGN</button>
+											</div>
+												<button style="font-size: .8rem; font-weight: 400; color:#77AFE4; text-align:center">USER RESEARCH</button>
+											</div>
+											<h2 style="font-size: 1.2rem; font-weight: 300; width: 20rem;"">Enhancing the engineering community's mentorship program for women with a rebranded website and a secure portal to streamline member information management and optimize user experience.</h2>
 											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<!-- Box -->
-												<section id="nav__here" class="box feature">
-													<a href="mymuse.html" class="image featured"><img src="images/project1.png" alt="" /></a>
-													<div class="inner">
-														<header>
-															<h2><a href="mymuse.html">MyMuse</a></h2>
-															<p><b>September 2022 - November 2022</b></p>
-														</header>
-														<p>Want a new way to keep up with your friends and see what they're up to? MyMuse is a music social media platform that allows you to share your 'song of the day' and explore what your friends have had on repeat!</p>
-													</div>
-												</section>
-			
-										</div>
-										<div class="col-4 col-12-medium">
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<!-- Box -->
-												<section class="box feature">
-													<a href="bankwise.html" class="image featured"><img src="images/project2.png" alt="" /></a>
-													<div class="inner">
-														<header>
-															<h2><a href="bankwise.html">Bankwise</a></h2>
-															<p><b>November 2022</b></p>
-														</header>
-														<p>A banking portfolio that allows you to add multiple banking accounts from different banks onto one app. From checking your credit cards to viewing your bank statements every month, Bankwise has it all!</p>
-														<br>
-													</div>
-												</section>
-			
-										</div>
-										<div class="col-4 col-12-medium">
+											<h3 style="text-decoration: underline; font-size: 1.3rem;"><a href="wmwe.html">View Case Study ↗</a></h3>
+									</div>
+												<!-- <div class="col-12 col-1-medium">
+														<section id="nav__here" class="box feature">
+															<a href="wmwe.html" class="image featured"><img src="images/project3.png" alt="" /></a>
+															<div class="inner">
+																<header>
+																	<h2 style="font-size: 3rem; font-weight: 700;"><a href="wmwe.html">WMWE Website</a></h2>
+																	<button style="font-size: .9rem; font-weight: 400; color:#77AFE4; text-align:center">WEB DEVELOPMENT</button>
+																	<button style="font-size: .9rem; font-weight: 400; color:#77AFE4; text-align:center">WEBSITE UI/UX DESIGN</button>
+																	<button style="font-size: .9rem; font-weight: 400; color:#77AFE4; text-align:center">USER TESTING</button>
+																</header>
+																<h3 style="font-size: 1.1rem; font-weight: 500; padding-bottom: .9rem;">Enhancing the engineering community's mentorship program for women with a rebranded website and a secure portal to streamline member information management, optimize user experience, and aid in logistics.
 
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<br>
-											<!-- Box -->
-												<section class="box feature">
-													<a href="wmwe.html" class="image featured"><img src="images/project3.png" alt="" /></a>
-													<div class="inner">
-														<header>
-															<h2><a href="wmwe.html">WMWE Website</a></h2>
-															<p><b>June 2022 - Present</b></p>
-														</header>
-														<p>A rebrand of the Women Mentoring Women in Engineering website, including a redesign to introduce a portal to enhance organization and security across member information.
-														</p>
-														<br>
-														<br>
-													</div>
-												</section>
-			
-										</div>
+																</h3>
+																<h3 style="text-decoration: underline; font-size: 1.3rem;"><a href="wmwe.html">View Case Study ↗</a></h3>
+															</div>
+														</section>
+													</div> -->
 									</div>
 								</div>
 							</div>
@@ -151,28 +131,9 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<!-- <section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section> -->
 							<center>
 								<section>
-									<h1 class="footer__text1">Contact me!</h1>
+									<h1 class="avigea footer__text1">contact me!</h1>
 									<p class="footer__text2">I'm always interested in working on new projects and expanding my skillset. If you'd like to chat, or just 
 										want to stop by and say hi, please reach out on any of the below socials!</p>
 										<ul class="icons">
@@ -183,9 +144,6 @@
 										<h3 class="pink__text">Coded with &#10084; by Manasi Vipat</h3>
 								</section>
 							</center>
-							<!-- <ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul> -->
 						</div>
 					</footer>
 
