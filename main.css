@@ -10,7 +10,7 @@
 
 @font-face {
 	font-family: 'Avigea';
-	src: url('/assets/webfonts/Avigea.ttf') format("truetype");
+	src: url('/C:/personal-portfolio/assets/webfonts') format("truetype");
   }
 
 html, body, div, span, applet, object,
