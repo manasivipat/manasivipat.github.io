@@ -60,6 +60,14 @@ ol {
 	-webkit-text-stroke: 1px white;
 }
 
+.caption h1 {
+	font-size: 2.75em;
+    /* font-weight: 700; */
+    line-height: 1.25;
+    margin: 0 0 0.7em 0 !important;
+    letter-spacing: -0.035em;
+}
+
 ::selection {
 	background: #9394F1;
 	color: white;
@@ -239,9 +247,9 @@ hr {
 
 .full {
 	height: 30rem;
-	background-image: url("images/wmwemockup.png") !important;
+	background-image: url("images/wmwebanner.svg") !important;
 	background-position: 50% 50%;
-	background-size: cover;
+	background-size: 100%;
 }
 
 .group {
