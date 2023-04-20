@@ -207,7 +207,7 @@ hr {
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	animation: fadeInOut 1s;
-	-webkit-text-stroke: 0px white;
+	-webkit-text-stroke: 0px #9394F1;
 }
 
 .about__me {
@@ -2911,8 +2911,8 @@ ul.icons:hover {
 /* Footer */
 
 #footer {
-	padding: 5em 0 6em 0;
-	text-align: center;
+	padding: 5em 0 2em 0 !important;
+	text-align: left !important;
 	/* background-color: #394550; */
 }
 
