@@ -61,7 +61,7 @@ ol {
 }
 
 ::selection {
-	background: #77AFE4;
+	background: #9394F1;
 	color: white;
 }
 
@@ -112,7 +112,7 @@ hr {
 }
 
 .name:hover {
-	color: #77AFE4;
+	color: #9394F1;
 	-webkit-text-stroke: 0px white;
 }
 
@@ -133,7 +133,7 @@ hr {
 }
 
 .pink__text {
-	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	/* text-shadow: 1px 1px 20px #FFBCB5; */
@@ -142,7 +142,7 @@ hr {
 .make__larger {
 	font-size: 4rem;
 	color: white;
-	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC); */
+	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1); */
 	/* background: linear-gradient(to right, #9491e2, #aff2d8); */
 	/* -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
@@ -151,7 +151,7 @@ hr {
 .pink__text1:hover {
 	/* color: #E97B93; */
 	/* background: linear-gradient(to right, #aed1ef, #f2dfc1, #f0b9ef); */
-	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	animation: fadeInOut 1s;
@@ -169,6 +169,10 @@ hr {
 	color: #F2F5EA;
 }
 
+.box.feature .inner2 {
+	padding: 2em 0rem 0em 0rem;
+}
+
 .wmwe__wireframes {
 	display: flex;
 	flex-direction: row;
@@ -183,7 +187,7 @@ hr {
 	color: #1E1E1E;
 	/* animation: fadeInOut .5s; */
 	-webkit-text-stroke: 1px white;
-	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
 }
@@ -191,7 +195,7 @@ hr {
 .footer__text1:hover {
 	/* color: #E97B93; */
 	/* background: linear-gradient(to right, #aed1ef, #f2dfc1, #f0b9ef); */
-	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 	animation: fadeInOut 1s;
@@ -221,9 +225,9 @@ hr {
 	text-align: left;
 	font-size: 5rem;
 	font-weight: 700;
-	color: #8DD0FC;
+	color: #9394F1;
 	margin: 0.7em 0 0em 0 !important;
-	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text; */
 }
@@ -312,7 +316,7 @@ input, select, textarea {
 
 .blueish__text {
 	/* color: #556676; */
-	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC);
+	background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1);
 	-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -2161,9 +2165,9 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC); */
+		/* background: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1); */
 		background: #1e1e1e;
-		/* border: linear-gradient(to right, #FFBCB5, #B5C2F9, #8DD0FC); */
+		/* border: linear-gradient(to right, #FFBCB5, #B5C2F9, #9394F1); */
 		border-radius: 10px;
 		padding: 2em;
 		display: flex;
@@ -2176,7 +2180,7 @@ input, select, textarea {
 		/* border: 3.5px solid #FFBCB5; */
 		/* border-radius: 24px; */
 		/* box-shadow: 1px 1px 20px #FFBCB5; */
-        /* background: linear-gradient(to bottom right, #FFBCB5, #B5C2F9, #8DD0FC); */
+        /* background: linear-gradient(to bottom right, #FFBCB5, #B5C2F9, #9394F1); */
 	}
 
 
@@ -2275,7 +2279,7 @@ input, select, textarea {
 
 		.icon.style2:hover {
 			border: solid 3px;
-			border: 2px solid #77AFE4;
+			border: 2px solid #9394F1;
 			/* border-radius: 24px; */
 			/* box-shadow: 1px 1px 10px #FFBCB5; */
 			margin: 0;
@@ -2693,7 +2697,7 @@ ul.icons:hover {
   
   .navbar-nav .nav-item .sub-menu li a.active, .navbar-nav .nav-item .sub-menu li a:hover {
 	padding-left: 25px;
-	color: #77AFE4;
+	color: #9394F1;
   }
   
   .navbar-nav .sub-nav-toggler {
